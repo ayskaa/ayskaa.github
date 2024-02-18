@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hero page</title>
+    <style>
+        body, h5 {
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(39, 7, 245, 0.164);
+            background-image: linear-gradient(to right, rgba(8, 0, 255, 0.258));
+            color: rgba(255, 255, 255, 0.79);
+            font-size: 6em;
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .video-bg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-width: 100%;
+            z-index: -1;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h5>welcome to ayskaa fatimah naura</h5>
+        <video src="media/11.mp4"
+         class="video-bg"
+         autoplay
+         muted
+         Loop
+         ></video>
+    </div>
+</body>
+</html>
